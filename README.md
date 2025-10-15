@@ -11,7 +11,7 @@ Communication barriers between hearing-impaired individuals and others are still
 This project aims to leverage Computer Vision and Deep Learning to bridge that gap by translating static sign gestures into readable letters, making technology more inclusive and accessible.
 
 
-Model
+-Model:
 
 Custom CNN trained on the Sign Language MNIST dataset (28×28 grayscale images, 24 classes).
 Optimizer: Adam
@@ -19,20 +19,21 @@ Loss: Categorical Crossentropy
 Regularization: Dropout (0.5)
 
 
-Results
+-Results:
+
 Metric	Score
 Accuracy	94.28%
 Macro F1-score	0.9389
 
 
-Dataset
+-Dataset:
 
 Dataset: Sign Language MNIST (Kaggle)
 27,455 training images, 7,172 testing images
 Image size: 28×28 pixels (grayscale)
 24 classes (A–Y excluding J and Z)
 
-Future Work
+-Future Work:
 
 Extend to video-based word recognition (CNN+LSTM)
 Add Grad-CAM explainability
