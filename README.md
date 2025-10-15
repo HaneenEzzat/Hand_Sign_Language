@@ -9,6 +9,7 @@ Recognizes American Sign Language (A–Y, excluding J and Z) from grayscale hand
 
 Designed for accessibility and inclusivity, enabling seamless communication between hearing-impaired and non-hearing individuals.
 
+-----------------------------------------------------------------------------------------
  Motivation
 
 Communication barriers for the hearing-impaired remain a global challenge.
@@ -17,6 +18,7 @@ This project leverages Computer Vision and Deep Learning to translate static sig
 
 The goal is to make technology more inclusive, accessible, and human-centered.
 
+-----------------------------------------------------------------------------------------
  Model
 
 Architecture: Custom CNN
@@ -29,10 +31,13 @@ Loss Function: Categorical Crossentropy
 
 Regularization: Dropout (0.5)
 
+-----------------------------------------------------------------------------------------
  Results
 Metric	Score
 Accuracy	94.28%
 Macro F1-score	0.9389
+
+-----------------------------------------------------------------------------------------
  Dataset Details
 
 Source: Sign Language MNIST – Kaggle
@@ -45,6 +50,7 @@ Image Size: 28×28 (grayscale)
 
 Classes: 24 (A–Y, excluding J and Z)
 
+-----------------------------------------------------------------------------------------
  Future Work
 
 Extend to video-based word recognition using CNN + LSTM architectures.
